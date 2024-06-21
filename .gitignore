@@ -1,0 +1,5 @@
+build-dir/tmp/*
+build-dir/cache/*
+build-dir/bitbake-cookerdaemon.log
+build-dir/downloads/*
+build-dir/sstate-cache/*
