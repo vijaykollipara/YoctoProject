@@ -8,7 +8,7 @@ SRC_URI = "file://userprog.c \
 S = "${WORKDIR}"
 
 do_compile() {
-    ${CC} userprog.c createFile.c ${LDFLAGS} -o userprog
+    ${CC} -DMACRO userprog.c createFile.c ${LDFLAGS} -o userprog
 }	
 
 do_install() {
